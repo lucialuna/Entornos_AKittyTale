@@ -1,5 +1,5 @@
 
-var imagenes = ['1.png','2.png','3.png','4.png','5.png'];
+var imagenes = ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg'];
 var cont = 0;
 
 function carrusel(){
