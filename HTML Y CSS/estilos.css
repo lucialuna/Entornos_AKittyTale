@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0;}
+#menu{
+	position: fixed;
+	display: block;
+	width: 15vw;
+	height: 100vh;
+	background-color: #610070;
+}
+#menu ul li{
+	padding: 20px;
+	width: 12.9vw;
+	list-style-type: none;
+}
+#menu ul li:hover{
+	background-color: #2c0033;
+}
+#marco-contenedor{
+	position: fixed;
+	top: 25vh;
+	left: 15vw;
+	width: 85vw;
+	height: 75vh;
+}
+#menu img{
+	position: fixed;
+	top: 12.5vh;
+	left: 1.20vw;
+	width: 12.5vw;
+}
+#banner{
+	position: fixed;
+	left: 15vw;
+	width: 85vw;
+	height: 25vh;
+	top: 0;
+}
+#menu h1{
+	position: fixed;
+	top: 4vh;
+	left: 2.20vw;
+}
+#menu ul{
+	position: fixed;
+	top: 45vh;
+}
+img{
+	width: 300px;
+	height: 250px;
+}
