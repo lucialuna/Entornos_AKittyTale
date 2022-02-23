@@ -1,5 +1,5 @@
 
-var imagenes = ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg'];
+var imagenes = ['img/1.jpg','img/2.jpg','img/3.jpg','img/4.jpg'];
 var cont = 0;
 
 function carrusel(){
@@ -15,18 +15,14 @@ function carrusel(){
 }
 
 function imagenZoom(elemento){
-
-	imagen.width+=250;
+	elemento.width+=250;
 
 }
 
 function restablecerZoom(elemento){
-
-	imagen.style="";
-
+	elemento.width-=250;
 }
 
 function sombrear(elemento,color){
-
-	thiscuadro.style="background-color:"+color+";";
+	elemento.style+="background-color:"+color+";";
 }
